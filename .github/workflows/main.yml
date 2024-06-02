@@ -40,7 +40,7 @@ jobs:
           pip install buildozer
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v2
+        uses: android-actions/setup-android@v3
    
 
       - name: Build with Buildozer
