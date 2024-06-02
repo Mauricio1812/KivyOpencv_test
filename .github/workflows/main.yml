@@ -30,6 +30,10 @@ jobs:
         run: |
           pip install setuptools
 
+      - name: Install cython
+        run: |
+          pip install cython
+
       - name: Install Buildozer and other dependencies
         run: |
           pip install --upgrade pip
